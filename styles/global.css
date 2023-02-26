@@ -1,0 +1,41 @@
+.title {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.sub-title {
+    font-size: 1.25em;
+    font-style: italic;
+}
+
+.section-title {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.content-lg {
+    font-size: 1.25em;
+}
+
+.content {
+    font-size: 1em;
+}
+
+.writings-body {
+    margin: auto;
+    max-width: 750px;
+    padding: 10px;
+}
+
+.section {
+    margin-top: 12px;
+}
+
+.divider {
+    border-top: 2px solid #bbb;
+    margin: 15px 5px 15px 5px;
+}
+
+.quote-attribution {
+    padding-left: 30px;
+}
