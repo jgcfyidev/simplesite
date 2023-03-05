@@ -1,15 +1,15 @@
 .title {
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
 .sub-title {
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-style: italic;
 }
 
 .section-title {
-    font-size: 1em;
+    font-size: 1.25em;
     font-weight: bold;
 }
 
@@ -38,4 +38,73 @@
 
 .quote-attribution {
     padding-left: 30px;
+}
+
+blockquote {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+blockquote > p {
+    margin-bottom: 2px;
+}
+
+div.twitter-tweet {
+    /* display: inline-block; */
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    border-color: #eee #ddd #bbb;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    margin: 10px 5px;
+    padding: 0 16px 16px 16px;
+    max-width: 468px;
+}
+
+div.twitter-tweet p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+div.twitter-tweet a {
+    color: inherit;
+    font-weight: normal;
+    text-decoration: none;
+    outline: 0 none;
+}
+
+div.twitter-tweet a:hover,
+div.twitter-tweet a:focus {
+    text-decoration: underline;
+}
+
+details {
+    user-select: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+details>summary span.icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s;
+    margin-left: auto;
+}
+
+details[open] summary span.icon {
+    transform: scale(1, -1);
+}
+
+summary {
+    display: flex;
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    display: none;
 }
